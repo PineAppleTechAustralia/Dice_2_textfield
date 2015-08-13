@@ -11,9 +11,9 @@
 		972F6CAA1B7C4BAB0024C2E8 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 972F6CA91B7C4BAB0024C2E8 /* AppDelegate.m */; };
 		972F6CAD1B7C4BAB0024C2E8 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 972F6CAC1B7C4BAB0024C2E8 /* ViewController.m */; };
 		972F6CB01B7C4BAB0024C2E8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 972F6CAE1B7C4BAB0024C2E8 /* Main.storyboard */; };
-		972F6CB21B7C4BAB0024C2E8 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 972F6CB11B7C4BAB0024C2E8 /* Images.xcassets */; };
 		972F6CB51B7C4BAB0024C2E8 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 972F6CB31B7C4BAB0024C2E8 /* LaunchScreen.xib */; };
 		972F6CC11B7C4BAB0024C2E8 /* Dice_RollingTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 972F6CC01B7C4BAB0024C2E8 /* Dice_RollingTests.m */; };
+		972F6CCB1B7C57020024C2E8 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 972F6CCA1B7C57020024C2E8 /* Images.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,11 +35,11 @@
 		972F6CAB1B7C4BAB0024C2E8 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		972F6CAC1B7C4BAB0024C2E8 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		972F6CAF1B7C4BAB0024C2E8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		972F6CB11B7C4BAB0024C2E8 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		972F6CB41B7C4BAB0024C2E8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		972F6CBA1B7C4BAB0024C2E8 /* Dice_RollingTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Dice_RollingTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		972F6CBF1B7C4BAB0024C2E8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		972F6CC01B7C4BAB0024C2E8 /* Dice_RollingTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Dice_RollingTests.m; sourceTree = "<group>"; };
+		972F6CCA1B7C57020024C2E8 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,12 +81,12 @@
 		972F6CA31B7C4BAB0024C2E8 /* Dice_Rolling */ = {
 			isa = PBXGroup;
 			children = (
+				972F6CCA1B7C57020024C2E8 /* Images.xcassets */,
 				972F6CA81B7C4BAB0024C2E8 /* AppDelegate.h */,
 				972F6CA91B7C4BAB0024C2E8 /* AppDelegate.m */,
 				972F6CAB1B7C4BAB0024C2E8 /* ViewController.h */,
 				972F6CAC1B7C4BAB0024C2E8 /* ViewController.m */,
 				972F6CAE1B7C4BAB0024C2E8 /* Main.storyboard */,
-				972F6CB11B7C4BAB0024C2E8 /* Images.xcassets */,
 				972F6CB31B7C4BAB0024C2E8 /* LaunchScreen.xib */,
 				972F6CA41B7C4BAB0024C2E8 /* Supporting Files */,
 			);
@@ -199,9 +199,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				972F6CCB1B7C57020024C2E8 /* Images.xcassets in Resources */,
 				972F6CB01B7C4BAB0024C2E8 /* Main.storyboard in Resources */,
 				972F6CB51B7C4BAB0024C2E8 /* LaunchScreen.xib in Resources */,
-				972F6CB21B7C4BAB0024C2E8 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
