@@ -45,16 +45,18 @@
     
     NSString *numberOfDice2 = self.diceTwoInput.text;
     
+    NSArray *diceNumArray = [[NSArray alloc] initWithObjects: numberOfDice1,numberOfDice2, nil];
+    
     
     //get integer value from string
-    NSUInteger diceInteger1 = [numberOfDice1 intValue];
+    //NSUInteger diceInteger1 = [numberOfDice1 intValue];
+    NSUInteger diceInteger1 = [[diceNumArray objectAtIndex:1] intValue];
     
     NSUInteger diceInteger2 = [numberOfDice2 intValue];
     
     
     if ( diceInteger1 >0 && diceInteger1 < 7 &&diceInteger2 >0 && diceInteger2 <7)
     {
-        
         
         NSUInteger totalNumber = diceInteger1 + diceInteger2;
         
